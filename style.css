@@ -30,6 +30,10 @@ body {
   font-size: 30px;
 }
 
+.navigation .donate a:hover {
+  color: green;
+}
+
 .navigation li.logo {
   font-weight: 700;
   font-size: 18px;
