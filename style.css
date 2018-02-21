@@ -1,0 +1,128 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: white;
+}
+
+/* Navigation */
+
+.navigation ul {
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-weight: 100;
+
+}
+
+.navigation ul li {
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation li.logo {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+
+/* Banner */
+
+#banner {
+  background-image: url(./resources/banner.jpeg);
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  background-position: bottom center;
+}
+
+#banner .content h1 {
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+  border: 3px solid white;
+}
+
+/* Main */
+
+#main.content {
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  height: 1000px;
+  overflow: scroll;
+  text-align: center;
+}
+
+#main.content h3 {
+  color: red;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 20px 10px;
+}
+
+#main.content .byline {
+  color: darkgrey;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+#main.content p {
+  color: grey;
+  font-size: 16px;
+  line-height: 48px;
+  margin-top: 60px;
+  padding: 10px 20px;
+}
+
+#main.content .pull-quote h2 {
+  color: red;
+  border: 1px dotted red;
+  font-size: 14px;
+  line-height: 48px;
+  padding: 20px 30px;
+  margin: 30px 20px;
+}
+
+
+/* Share */
+
+.share {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding: 40px 0px;
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+
+.share a {
+  display: inline-block;
+  padding: 14px;
+  margin: 10px;
+  text-decoration: none;
+  border: 1px solid red;
+  border-radius: 3px;
+  background-color: red;
+  color: white;
+  transition: background .5s
+
+}
+
+.share a:hover {
+
+  background-color: white;
+  color: red;
+}
