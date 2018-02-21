@@ -25,6 +25,11 @@ body {
   color: black;
 }
 
+.navigation ul li a:hover {
+  font-weight: bold;
+  font-size: 30px;
+}
+
 .navigation li.logo {
   font-weight: 700;
   font-size: 18px;
@@ -117,8 +122,8 @@ body {
   border-radius: 3px;
   background-color: red;
   color: white;
-  transition: background .5s
-
+  transition: background .3s;
+  letter-spacing: 2px;
 }
 
 .share a:hover {
